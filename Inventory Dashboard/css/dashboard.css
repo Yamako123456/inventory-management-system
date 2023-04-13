@@ -1,0 +1,11 @@
+table, tr, td, caption{
+    border: 1px solid black; 
+    padding: 8px;
+}
+
+th{
+    background-color: #6666f1;
+    color: #f8efef;
+    font-weight: bold;
+    border-width: 2px; border-style: groove; border-color:rgb(13, 102, 53)
+}
