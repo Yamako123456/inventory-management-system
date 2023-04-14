@@ -12,44 +12,93 @@
     </header>
     <main>
         <article>
-            <h2><em>yamakodev Inventory Management System</em>. Optimize workflow, shorten lead-time, and reduce cost.</h2>
+            <h2><em>yamakodev</em> Inventory Management System. </h2>
+            <p>Optimize workflow, shorten lead-time, and reduce cost.</p>
         </article>
-        <section>
+        <section>      
             <h2>Getting satarted</h2>
-        
             <figure>
-              <a href="dashboard.html">
-                <img src="img/dashboard_800x533.jpg" alt="Inventory dashboard" title="Dashboard for  your inventory" width="400"
-                loading="lazy">
+                <a href="dashboard.html">
+                    <img src="img/dashboard_800x533.jpg" alt="Inventory dashboard" title="Dashboard for  your inventory" width="400"
+                loading="lazy">        
                 </a>
-                <figcaption>Visualize your inventory on the dashboard</figcaption>            
+                <figcaption>
+                    Visualize your inventory on the dashboard
+                </figcaption>            
             </figure>
         </section>
+        <hr>
         <section>
             <h2>Resources</h2>
             <aside>
                 <details>
                     <summary>Inventory management System</summary>
                     <P>
-                    <em>Inventory management</em>  software is a software system for tracking inventory levels, orders, sales and deliveries.[1] It can also be used in the manufacturing industry to create a work order, bill of materials and other production-related documents. Companies use inventory management software to <mark>avoid product overstock and outages</mark> . It is a tool for organizing inventory data that before was generally stored in hard-copy form or in spreadsheets.
+                        <em>Inventory management</em>  software is a software system for tracking inventory levels, orders, sales and deliveries.[1] It can also be used in the manufacturing industry to create a work order, bill of materials and other production-related documents. Companies use inventory management software to <mark>avoid product overstock and outages</mark> . It is a tool for organizing
                     </P>
                 </details>
-            </aside>
+            </aside>            
         </section>
-    </main>
+    </main>                        
     <footer>
+        <hr>
+        <article id="Contact">
+            <h2>Contact Us</h2>
+            <P>How can I help you?</P>
+            <form action="https://httpbin.org/get" method="get">
+                <p>
+                    <label for="fName">First Name:</label>
+                    <input type="text" name="fName" id="fName" placeholder="Your first name" autocomplete="on" autofocus required>
+                </p>
+                <p>
+                    <label for="lName">Last Name:</label>
+                    <input type="text" name="lName" id="lName" placeholder="Your last name" autocomplete="on" required>
+                </p>
+                <!-- <p> -->
+                    <!-- <label for="password">Password:</label> -->
+                    <!-- <input type="password" name="password" id="password" placeholder="Your password" required> -->
+                <!-- </p> -->
+                
+                <p>
+                    <label for="role">Your Role</label>
+                    <select name="role" id="role" multiple size="5">
+                        <optgroup label="Softwae Developer">
+                            <option value="back-end">Back-end Developer</option>
+                            <option value="front-end">Front-end Developer</option>
+                            <option value="full-stack">Full-stack Developer</option>      
+                            <option value="SE">Software Engineer</option>    
+                        </optgroup>
+                        <optgroup label="Other Techical Roles">
+                            <option value="QA">QA Engineer</option>
+                            <option value="sysArchitect">System Architecture</option>
+                            <option value="DBA">Database Administrator</option>
+                            
+                            <option value="dataAnalysist">Data Analysist</option>
+                            <option value="devOps">DevOps Engineer</option>
+                        </optgroup>    
+                        <optgroup label="Other">    
+                            <option value="projectManager">Project Manager</option>
+                            <option value="sales">Sales Engineer</option>
+                            <option value="graphicDesigner">Graphic Designer</option>
+                            <option value="other">Other</option>
+                        </optgroup>
+                    </select>    
+                </p>
+                <p>
+                    <label for="experience">Years Of Experience:</label>
+                    <input type="number" name="experience" id="experience" min="0" max="80" step="1" value="1">
+                </p>
+            </form>
+        </article>
+        <hr> 
         <section>
+            <h2>About Us</h2>
+            <a href="https://www.youtube.com/@it6037">&copy;yamakodev inc.</a>
             <br>
-            <hr>
-            <h3>Contact</h3>
-            <p>
-                <a href="https://www.youtube.com/@it6037">&copy;yamakodev inc.</a>
-                <br>
-                yamakodev_products@gmail.com
-                <address>9902 Santa Margarita Pkwy, Rancho Santa Margarita, CA 92688</address>
-            
+            yamakodev_products@gmail.com
+            <address>9902 Santa Margarita Pkwy, Rancho Santa Margarita, CA 92688</address>
         </section>
+        <hr>
     </footer>
 </body>
-
 </html>
