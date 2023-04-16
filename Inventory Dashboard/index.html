@@ -54,25 +54,20 @@
                     <label for="lName">Last Name:</label>
                     <input type="text" name="lName" id="lName" placeholder="Your last name" autocomplete="on" required>
                 </p>
-                <!-- <p> -->
-                    <!-- <label for="password">Password:</label> -->
-                    <!-- <input type="password" name="password" id="password" placeholder="Your password" required> -->
-                <!-- </p> -->
-                
                 <p>
-                    <label for="role">Your Role</label>
-                    <select name="role" id="role" multiple size="5">
+                    <label for="role">Your Job Role</label>
+                    <select name="role" id="role">
+                    <!--  multiple size="1"> -->
                         <optgroup label="Softwae Developer">
                             <option value="back-end">Back-end Developer</option>
                             <option value="front-end">Front-end Developer</option>
                             <option value="full-stack">Full-stack Developer</option>      
                             <option value="SE">Software Engineer</option>    
                         </optgroup>
-                        <optgroup label="Other Techical Roles">
+                        <optgroup label="Other Techicect">
                             <option value="QA">QA Engineer</option>
                             <option value="sysArchitect">System Architecture</option>
                             <option value="DBA">Database Administrator</option>
-                            
                             <option value="dataAnalysist">Data Analysist</option>
                             <option value="devOps">DevOps Engineer</option>
                         </optgroup>    
@@ -83,11 +78,49 @@
                             <option value="other">Other</option>
                         </optgroup>
                     </select>    
+                </p>                
+                <p>
+                    <label for="job-type">Your Job Type</label>
+                    <select name="job-type" id="job-type" multiple size="3">
+                            <option value="full-time">Full Time</option>
+                            <option value="part-time">Part Time</option>
+                            <option value="contactor">Contractor</option>
+                            <option value="third-party">Third-party Provider</option>      
+                    </select>    
                 </p>
+                 <p>
+                    <label for="prog-language">Your Programming Language</label>
+                    <input type="text" name="role" id="prog-language" list="language-list">
+                    <datalist id="language-list">
+                            <option value="JavaScript">
+                            <option value="Python">
+                            <option value="Go">
+                            <option value="TypeScript">
+                            <option value="Scala">
+                            <option value="Ruby">
+                            <option value="PHP">
+                            <option value="Rust">
+                            <option value="Perl">
+                            <option value="Java">
+                            <option value="Kotlin">
+                            <option value="C#">
+                            <option value="Swift">
+                            <option value="R">
+                            <option value="C++">
+                            <option value="C">
+                            <option value="HTML">
+                            <option value="CSS">
+                    </datalist>                      
+                </p>
+ 
                 <p>
                     <label for="experience">Years Of Experience:</label>
                     <input type="number" name="experience" id="experience" min="0" max="80" step="1" value="1">
                 </p>
+                <!-- <p> -->
+                    <!-- <label for="password">Password:</label> -->
+                    <!-- <input type="password" name="password" id="password" placeholder="Your password" required> -->
+                <!-- </p> -->
             </form>
         </article>
         <hr> 
